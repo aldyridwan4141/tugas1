@@ -1,0 +1,27 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coffee cup with latte art -->
+  <g>
+    <!-- Cup -->
+    <path d="M100 150C100 150 120 300 200 300C280 300 300 150 300 150H100Z" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="3"/>
+    
+    <!-- Cup rim -->
+    <ellipse cx="200" cy="150" rx="100" ry="20" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="3"/>
+    
+    <!-- Latte art (heart) -->
+    <path d="M170 200C170 200 180 180 200 180C220 180 230 200 230 200C230 200 220 230 200 230C180 230 170 200 170 200Z" fill="#D4A76A" stroke="#B38046" stroke-width="1"/>
+    
+    <!-- Cup design (leaves) -->
+    <path d="M120 220C120 220 130 210 140 220C150 230 140 240 140 240" stroke="#006241" stroke-width="2"/>
+    <path d="M280 220C280 220 270 210 260 220C250 230 260 240 260 240" stroke="#006241" stroke-width="2"/>
+    <path d="M140 260C140 260 150 250 160 260C170 270 160 280 160 280" stroke="#006241" stroke-width="2"/>
+    <path d="M260 260C260 260 250 250 240 260C230 270 240 280 240 280" stroke="#006241" stroke-width="2"/>
+    
+    <!-- Logo on cup -->
+    <g transform="translate(180, 250) scale(0.4)">
+      <path d="M50 32.5C50 41.6127 42.6127 49 33.5 49C24.3873 49 17 41.6127 17 32.5C17 23.3873 24.3873 16 33.5 16C42.6127 16 50 23.3873 50 32.5Z" stroke="#006241" stroke-width="2"/>
+      <path d="M33.5 16V49" stroke="#006241" stroke-width="2"/>
+      <path d="M25 24.5C25 24.5 29.5 20 33.5 20C37.5 20 42 24.5 42 24.5" stroke="#006241" stroke-width="2"/>
+      <path d="M25 40.5C25 40.5 29.5 45 33.5 45C37.5 45 42 40.5 42 40.5" stroke="#006241" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

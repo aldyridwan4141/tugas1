@@ -1,0 +1,10 @@
+<svg width="220" height="65" viewBox="0 0 220 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified fore logo -->
+  <g>
+    <path d="M50 32.5C50 41.6127 42.6127 49 33.5 49C24.3873 49 17 41.6127 17 32.5C17 23.3873 24.3873 16 33.5 16C42.6127 16 50 23.3873 50 32.5Z" stroke="#006241" stroke-width="2"/>
+    <path d="M33.5 16V49" stroke="#006241" stroke-width="2"/>
+    <path d="M25 24.5C25 24.5 29.5 20 33.5 20C37.5 20 42 24.5 42 24.5" stroke="#006241" stroke-width="2"/>
+    <path d="M25 40.5C25 40.5 29.5 45 33.5 45C37.5 45 42 40.5 42 40.5" stroke="#006241" stroke-width="2"/>
+  </g>
+  <text x="65" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#006241">fore</text>
+</svg>
