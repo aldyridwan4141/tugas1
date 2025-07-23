@@ -1,18 +1,13 @@
 import { useState } from 'react';
 import Navbar from './Navbar';
 import NotificationBanner from './NotificationBanner';
-import ChatbotInterface from './ChatbotInterface';
+import ChatBot from './ChatBot';
 import coffeeCupImg from './assets/AsbakBali.png';
 import arrowLeftImg from './assets/arrow-left.svg';
 import arrowRightImg from './assets/arrow-right.svg';
 import botIcon from './assets/bot-icon.svg';
 
 function App() {
-  const [isChatbotOpen, setIsChatbotOpen] = useState(false);
-  
-  const toggleChatbot = () => {
-    setIsChatbotOpen(!isChatbotOpen);
-  };
   return (
     <div style={styles.container}>
       <Navbar />
@@ -108,16 +103,8 @@ function App() {
         <p>&copy; {new Date().getFullYear()} Fore. All rights reserved.</p>
       </footer>
       
-      {/* Chatbot Floating Button */}
-      <button onClick={toggleChatbot} style={styles.chatbotButton}>
-        <img src={botIcon} alt="Chat with our bot" style={styles.chatbotIcon} />
-      </button>
-      
-      {/* Chatbot Interface */}
-      <ChatbotInterface
-        isOpen={isChatbotOpen}
-        onClose={() => setIsChatbotOpen(false)}
-      />
+      {/* Chatbot Component */}
+      <ChatBot />
     </div>
   );
 }
@@ -285,28 +272,6 @@ const styles = {
     padding: '2rem',
     backgroundColor: '#f5f5f5',
     flexShrink: 0,
-  },
-  chatbotButton: {
-    position: 'fixed',
-    bottom: '20px',
-    right: '20px',
-    zIndex: 1000,
-    width: '60px',
-    height: '60px',
-    borderRadius: '50%',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-    transition: 'transform 0.3s',
-    padding: 0,
-    border: 'none',
-    cursor: 'pointer',
-    background: 'transparent',
-  },
-  chatbotIcon: {
-    width: '100%',
-    height: '100%',
   },
   // Media queries will be handled by responsive design principles in the CSS
 };
